@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Jooj from './components/jooj';
+import Navbar from './components/Navbar';
+import Corpo from './components/Corpo/Corpo';
+import Fundo from './components/Fundo.js'
+
 
 function App() {
   return (
-    <Jooj />
+    <>
+    <Navbar />
+    <Corpo />
+    <Fundo />
+    </>
   );
 }
 
