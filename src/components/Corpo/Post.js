@@ -34,10 +34,10 @@ export default function Post(prop){
     curtidaSet(<span class="vermelho"><ion-icon name="heart" className='vermelho'></ion-icon></span>)
   }
 
-  console.log(prop);
+  
     const curtiuImg = `assets/img/${prop.curtiu}.svg`
     return(
-        <div class="post">
+        <div class="post" data-test='post'>
           <div class="topo">
             <div class="usuario">
               <img src= {prop.perfil} />
@@ -48,27 +48,27 @@ export default function Post(prop){
             </div>
           </div>
 
-          <div class="conteudo" onClick={imagemDoubleClick}>
+          <div class="conteudo" onClick={imagemDoubleClick} data-test='post-image'>
             <img src={prop.conteudo} />
           </div>
 
           <div class="fundo">
             <div class="acoes">
               <div>
-                <span onClick={curtir}>
+                <span onClick={curtir} data-test="like-post">
                 {curtida}
                 </span>
                 <ion-icon name="chatbubble-outline"></ion-icon>
                 <ion-icon name="paper-plane-outline"></ion-icon>
               </div>
-              <div onClick={salvar}>
+              <div onClick={salvar} data-test="save-post">
                 {bookmark}
               </div>
             </div>
 
             <div class="curtidas">
               <img src={curtiuImg} />
-              <div class="texto">
+              <div class="texto" data-test="likes-number">
                 Curtido por <strong>{prop.curtiu}</strong> e <strong>outras {curtidas} pessoas</strong>
               </div>
             </div>
