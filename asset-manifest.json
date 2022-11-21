@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/InstagramReact/static/css/main.9df769aa.css",
+    "main.js": "/InstagramReact/static/js/main.5a3daf42.js",
+    "static/js/787.cd53038e.chunk.js": "/InstagramReact/static/js/787.cd53038e.chunk.js",
+    "index.html": "/InstagramReact/index.html",
+    "main.9df769aa.css.map": "/InstagramReact/static/css/main.9df769aa.css.map",
+    "main.5a3daf42.js.map": "/InstagramReact/static/js/main.5a3daf42.js.map",
+    "787.cd53038e.chunk.js.map": "/InstagramReact/static/js/787.cd53038e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9df769aa.css",
+    "static/js/main.5a3daf42.js"
+  ]
+}
