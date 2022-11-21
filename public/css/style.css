@@ -139,6 +139,11 @@ body {
   height: 14px;
 }
 
+.vermelho:nth-child(1){
+  
+  color: red;
+}
+
 .stories .setinha {
   position: absolute;
   right: 10px;
