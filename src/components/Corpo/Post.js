@@ -48,8 +48,8 @@ export default function Post(prop){
             </div>
           </div>
 
-          <div class="conteudo" onClick={imagemDoubleClick} data-test='post-image'>
-            <img src={prop.conteudo} />
+          <div class="conteudo" >
+            <img src={prop.conteudo} onClick={imagemDoubleClick} data-test='post-image'/>
           </div>
 
           <div class="fundo">
